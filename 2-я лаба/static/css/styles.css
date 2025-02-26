@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -42,13 +41,20 @@ nav a {
 
 main {
     flex: 1;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
 
 }
+div {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
 
-.product-description, .reasons, .testimonials {
+}
+
+.product-description, .reasons, .reviews {
     margin-bottom: 30px;
 }
 
@@ -62,11 +68,11 @@ h1, h2 {
     padding-left: 20px;
 }
 
-.testimonial {
+.review {
     background-color: #f0f0f0;
     padding: 15px;
     margin-bottom: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .ads {
@@ -82,6 +88,11 @@ h1, h2 {
     font-weight: bold;
     border: 2px dashed #ff4500;
 }
+.poop-stone {
+    margin-top: 10px;
+    max-width: 500px;
+    vertical-align: center;
+}
 
 footer {
     background-color: #ffcc00;
@@ -96,7 +107,7 @@ footer {
         justify-content: space-between;
     }
 
-    .product-description, .reasons, .testimonials {
+    .product-description, .reasons, .reviews {
         flex: 1;
         margin-right: 20px;
     }
@@ -123,24 +134,21 @@ footer {
     }
 
     .ads {
-        flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
     }
 
     .ad {
-        flex: 1 1 100%;
+        flex: 1;
         margin-bottom: 15px;
     }
-}
 
-@media (max-width: 320px) {
     .logo {
         font-size: 22px;
     }
 
     nav a {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     h1 {
@@ -149,5 +157,9 @@ footer {
 
     h2 {
         font-size: 18px;
+    }
+
+    .poop-stone{
+        max-width: 260px;
     }
 }
