@@ -46,7 +46,8 @@ main {
     flex-direction: column;
 
 }
-div {
+
+.image {
     flex: 1;
     display: flex;
     justify-content: space-around;
