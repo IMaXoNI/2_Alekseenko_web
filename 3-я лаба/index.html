@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторная работа №3</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .facts, .review, .quotes, .matches {
+            background: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        #gameButton {
+            font-size: 30px;
+            display: block;
+            width: 300px;
+            margin: 20px auto;
+            padding: 15px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Лабораторная работа №3</h1>
+    
+    <section class="facts">
+        <h2>Топ 5 тупых фактов</h2>
+        <ul>
+            <li>Факт 1: Люди – единственные животные, способные смеяться.</li>
+            <li>Факт 2: Бананы технически являются ягодами.</li>
+            <li>Факт 3: В Швеции есть гостиница из льда, которая тает и строится заново каждый год.</li>
+            <li>Факт 4: Картофель можно использовать для выработки электричества.</li>
+            <li>Факт 5: Мед почти никогда не портится.</li>
+        </ul>
+    </section>
+    
+    <section class="review">
+        <h2>Обзор фильма</h2>
+        <p><strong>Фильм:</strong> Начало (2010)</p>
+        <p><strong>Режиссер:</strong> Кристофер Нолан</p>
+        <p><strong>Описание:</strong> Фантастический триллер о мире снов и сознания, где главный герой способен внедрять идеи в головы людей.</p>
+    </section>
+    
+    <section class="quotes">
+        <h2>Цитаты из книги</h2>
+        <blockquote>«Счастье можно найти даже в самые тёмные времена, если не забывать обращаться к свету.» — Альбус Дамблдор</blockquote>
+        <blockquote>«Это не наши способности показывают, кто мы такие, а наш выбор.» — Альбус Дамблдор</blockquote>
+    </section>
+    
+    <section class="matches">
+        <h2>Расписание матчей АПЛ</h2>
+        <table>
+            <tr>
+                <th>Дата</th>
+                <th>Команды</th>
+                <th>Счет</th>
+            </tr>
+            <tr>
+                <td>15 марта 2024</td>
+                <td>Ноттингем Форест vs Ливерпуль</td>
+                <td>2:1</td>
+            </tr>
+            <tr>
+                <td>22 марта 2024</td>
+                <td>Ноттингем Форест vs Челси</td>
+                <td>3:3</td>
+            </tr>
+        </table>
+    </section>
+    <button id="gameButton">Играть</button>
+
+    <script src="static/js/index.js"></script>
+</body>
+</html>
