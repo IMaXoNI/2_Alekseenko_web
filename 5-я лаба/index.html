@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личная карточка</title>
+    <link rel="stylesheet" href="static/css/index.css">
+</head>
+<body>
+    <header>
+        <button id="toggleEdit">Переключить режим редактирования</button>
+        <div id="addButtons" style="display: none;">
+            <button class="edit-fields" onclick="addBlock('heading')">Добавить заголовок</button>
+            <button class="edit-fields" onclick="addBlock('paragraph')">Добавить параграф</button>
+            <button class="edit-fields" onclick="addBlock('list')">Добавить список</button>
+        </div>
+    </header>
+    <div id="content"></div>
+
+    <script src="static/js/blocks.js"></script>
+    <script src="static/js/index.js"></script>
+</body>
+</html>
